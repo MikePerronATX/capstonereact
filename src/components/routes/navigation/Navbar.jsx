@@ -12,6 +12,9 @@ const Navbar = () => {
           <CrwnLogo className='logo' />
         </Link>
         <div className='nav-links-container'>
+          <Link className='nav-links' to='/home'>
+            HOME
+          </Link>
           <Link className='nav-links' to='/shop'>
             SHOP
           </Link>
